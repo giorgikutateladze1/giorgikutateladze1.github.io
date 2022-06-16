@@ -44,19 +44,32 @@ body{
 
 #skills{
     position: relative;
-    
     text-align: center;
     top: 75rem;
     
 }
 
+#fun-facts{
+    position: relative;
+    padding-top: 110px;
+    text-align: center;
+    top: 90rem;
+    
+}
 
+#hobbies{
+    position: relative;
+    padding-top: 110px;
+    text-align: center;
+    top: 120rem;
+    
+}
 
 #contact-me{
     position: relative;
     margin-top: 100px;
     text-align: center;
-    top: 90rem;
+    top: 140rem;
    
     
 
@@ -67,6 +80,12 @@ body{
     width: 200px;
 }    
    
+.vray:hover{
+    background-color: #f4efef;
+    border-radius: 0px 15px 15px 0px;
+    
+}
+
 div.sketchup a{
     padding: 10px 12px;
     border-radius: 3px;
@@ -76,6 +95,11 @@ div.sketchup a{
     margin-bottom: 10px;
 }
 
+#sketchup:hover{
+    border-radius: 15px;
+    background-color: #f4efef;
+    
+}
 
 div.android a{
     padding: 10px 12px;
@@ -87,28 +111,23 @@ div.android a{
     margin-bottom: 10px;
 }
 
+.kotlin:hover{
+    background-color: #f4efef;
+    
+}
+
+.compose:hover{
+    background-color: #f4efef;
+    border-radius: 10px;
+    text-align: center;
+
+}
 
 div.animation a{
     padding: 10px 12px;
     border-radius: 3px;
     width: 100px;
     display: inline-block;
-    
-}
-.vray:hover{
-    background-color: #f4efef;
-    border-radius: 0px 15px 15px 0px;
-    
-}
-
-#sketchup:hover{
-    border-radius: 15px;
-    background-color: #f4efef;
-    
-}
-
-.kotlin:hover{
-    background-color: #f4efef;
     
 }
 
@@ -122,41 +141,13 @@ div.animation a{
     padding-top: 250px;
 }
 
-.face{
-    
-    background-color: #f4efef;
-    width: 50px;
-    border-radius: 10px;
+i{
+    color: #f64c72;
 }
 
-.drive{
-   
-    background-color: #f4efef;
-    width: 50px;
-    border-radius: 10px;
+i:hover{
+    color: #f4efef;
 }
-
-.compose:hover{
-    background-color: #f4efef;
-    border-radius: 10px;
-    text-align: center;
-
-}
-
-.gmail{
-    background-color: #f4efef;
-   
-    border-radius: 10px;
-}
-    
-
-
-
-
-
-
-
-
 
 .ani{
     font-family: 'Roboto Slab', serif;
@@ -252,6 +243,11 @@ h2{
     background-color: #99738E;
   }
 
+  .button{
+    color: #f4efef;
+  }
+
+
   @media(max-width: 991px){
 
     .rick{
@@ -259,11 +255,11 @@ h2{
         margin:0 auto;
         width: 20%;
         position: relative;
-        top: 400px;
+        top: 520px;
     }
     .about{
         position: relative;
-        top: 450px;
+        top: 520px;
         
 
     }
@@ -272,7 +268,7 @@ h2{
         font-family: 'Roboto Slab', serif;
         color: #f4efef;
         text-align: center;
-        top: 29rem;
+        top: 32rem;
         position: relative;
         margin-right: 10%;
         margin-left: 10%;
@@ -292,13 +288,13 @@ h2{
 
     .education{
         position: relative;
-        top: 450px;
+        top: 500px;
         
 
     }
     #education{
         position: relative;
-        padding-top: 120px;
+        padding-top: 150px;
         top: 30rem;
     }
 
@@ -306,7 +302,7 @@ h2{
 
     .experience{
         position: relative;
-        padding-top: 0px;
+        padding-top: 80px;
         top: 250px;
         
     }
@@ -320,22 +316,43 @@ h2{
     }
     #skills{
         position: relative;
-        padding-top: 180px;
+        padding-top: 270px;
         top: 120rem;
         
+    }
+
+    .Fan-facts{
+        position: relative;
+        padding-top: 10px;
+        top: 500px;
+        
+    }
+
+    #fun-facts{
+        position: relative;
+        padding-top: 100px;
+        top: 100rem;
+        
+        
+    }
+
+    .Hobbies{
+        position: relative;
+        
+        top: 510px;
     }
 
     .skills{
         position: relative;
         
-        top: 240px;
+        top: 260px;
 
     }
 
     #contact-me{
         position: relative;
         padding-top: 100px;
-        top: 140rem;
+        top: 160rem;
         
     
     }
